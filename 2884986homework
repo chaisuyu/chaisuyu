@@ -1,8 +1,10 @@
-homework10
+##homework10
+
 PRINT (((-2)-(2**2-4*1*(-5))**0.5)/2*1,((-2)+(2**2-4*1*(-5))**0.5/2*1)
 END
 
-homework11
+##homework11
+
 l = int(input(" the length ")
 w = int(input(" the wide ")
 a = l*w
@@ -10,7 +12,8 @@ PRINT ( "the area is" )
 PRINT(a)
 END
 
-homework12
+##homework12
+
 f = int(input("the number of your friends")
 c = int(input("the number of the chocolates you plan to share")
 IF f > 0
