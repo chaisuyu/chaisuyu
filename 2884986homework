@@ -1,0 +1,26 @@
+homework10
+PRINT (((-2)-(2**2-4*1*(-5))**0.5)/2*1,((-2)+(2**2-4*1*(-5))**0.5/2*1)
+END
+
+homework11
+l = int(input(" the length ")
+w = int(input(" the wide ")
+a = l*w
+PRINT ( "the area is" )
+PRINT(a)
+END
+
+homework12
+f = int(input("the number of your friends")
+c = int(input("the number of the chocolates you plan to share")
+IF f > 0
+   a = c // f
+   b = c % f
+   PRINT("the number of cholocates each friend gets is")
+   PRINT(a)
+   PRINT("the number of cholocates you leftover is")
+   PRINT(b)
+ELSE
+   PRINT("u r lonely")
+END
+   
