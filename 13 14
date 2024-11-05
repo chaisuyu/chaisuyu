@@ -1,0 +1,38 @@
+#13
+def quadraticFormula1(a,b,c):
+    d = b**2 - 4 * a * c
+    if d < 0:
+        return "no root"
+    return (-b + d **0.5) / (2 * a)
+
+def quadraticFormula2(a,b,c):
+    d = b**2 - 4 * a * c
+    if d < 0:
+        return "no root"
+    return (-b - d**0.5) / (2 * a)
+
+a = int(input("a="))
+b = int(input("b="))
+c = int(input("c="))
+
+print("ax**2 + bx + c = 0")
+print("root1:",quadraticFormula1(a,b,c))
+print("root2:",quadraticFormula2(a,b,c))
+
+#14
+
+def bio(name, born, pronoun):
+    age = 2021 - born 
+    year = born + 67 
+    print(name,"was born in",born)
+    print(pronoun.capitalize(),"will turn",age,"years old this year")
+    print(pronoun.capitalize(),"will be 67 in the year",year)
+    print("-------------")
+
+bio("stephen", 1984, "he")
+bio("mary", 1990, "she")
+bio("jane", 2000, "she")
+
+quit()
+
+
