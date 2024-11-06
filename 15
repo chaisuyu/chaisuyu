@@ -1,0 +1,21 @@
+def errorcode(x):
+    match x:
+        case 500:
+            return("Internal Server Error")
+        case 401:
+            return("Unauthorised")
+        case 400:
+            return("Bad Requst")
+        case 403:
+            return("Forbidden")
+        case 404:
+            return("Not Found")
+        case 501:
+            return("Not Implemented")
+        case 502:
+            return("Service Temporaily Overloaded")
+        case 503:
+            return("Service Unavailaable")
+
+x = float(input("x:"))
+print(errorcode(x))
