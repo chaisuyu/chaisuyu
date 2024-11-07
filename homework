@@ -1,0 +1,14 @@
+print("i will slove a*x**3+b*x**2+c*x+d=0")
+
+a = float(input("what is the a?"))
+b = float(input("what is the b?"))
+c = float(input("what is the c?"))
+d = float(input("what is the d?"))
+
+
+u = ((-b ** 3 / 27 * a ** 3) + (b * c / 6 * a ** 2) - (d/2*a))
+v = ((c / 3 * a)-(b ** 2 / 9 * a ** 2))**3
+
+x = (u + (u ** 2 + v ** 3) ** (1 / 2)) ** (1 / 3) + (u - (u ** 2 + v ** 3) ** (1 / 2)) ** (1 / 3) -b / (3 * a)
+
+print("the root is",x)
