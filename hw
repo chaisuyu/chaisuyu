@@ -1,0 +1,91 @@
+print("  Term 1 ")
+a=int(input("AES:"))
+b=int(input("Maths 1:"))
+c=int(input("Physics 1:"))
+d=int(input("Computer Programming 1:"))
+print("Thank u,Term 1 is inputted")
+if a>100 or a<0:
+    print("end")
+    quit()
+elif b > 100 or b < 0:
+    print("end")
+    quit()
+elif c > 100 or c < 0:
+    print("end")
+    quit()
+elif d > 100 or d < 0:
+    print("end")
+    quit()
+avergae=(a+b+c+d)/4/100
+if avergae<2/5:
+    print("OO,u are failure")
+elif avergae>3/5:
+    print("you do progress")
+elif avergae==100:
+    print("WELL DONE :) YOU PROGRESS   WOW,you are so smart! 100 in everything!:)")
+else:
+    print("Sorry,you do not progress because you must at least an average of 60% overall.")
+
+
+print(" Term 2 ")
+a=int(input("AES:"))
+b=int(input("Maths 1:"))
+c=int(input("Physics 1:"))
+d=int(input("Computer Programming 1:"))
+print("Thank u,Term 2 is inputted")
+if a>100 or a<0:
+    print("end")
+    quit()
+if b > 100 or b < 0:
+    print("end")
+    quit()
+elif b<65:
+    print("Maths failure")
+    quit()
+if c > 100 or c < 0:
+    print("end")
+    quit()
+if d > 100 or d < 0:
+    print("end")
+    quit()
+avergae=(a+b+c+d)/4/100
+if avergae<2/5:
+    print("OO, u are failure")
+if avergae>3/5:
+    print("you do progress")
+elif avergae==100:
+    print("WELL DONE :) YOU PROGRESS   WOW,you are so smart! 100 in everything!:)")
+else:
+    print("Sorry,you do not progress because you must at least an average of 60% overall.")
+
+
+print("  Term 3 ")
+a=int(input("AES:"))
+b=int(input("Maths 1:"))
+c=int(input("Physics 1:"))
+d=int(input("Computer Programming 1:"))
+print("Thank u,Term 3 is inputted")
+if a>100 or a<0:
+    print("end")
+    quit()
+elif a<60:
+        print(" AES failure")
+        quit()
+if b > 100 or b < 0:
+    print("end")
+    quit()
+elif b<65:
+        print("Maths failure")
+        quit()
+elif c > 100 or c < 0:
+    print("end")
+    quit()
+elif d > 100 or d < 0:
+    print("end")
+    quit()
+
+avergae=(a+b+c+d)/4/100
+if avergae<2/5:
+    print("OO,u are failure")
+if avergae>3/5:
+    print("you do progress"
