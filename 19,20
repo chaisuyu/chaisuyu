@@ -1,0 +1,30 @@
+x = int(input("give me the base"))
+
+y = int(input("give me the power"))
+
+z = x ** y
+
+result = ""
+for n in range(1,y+1):
+    result += str(x) + "X"
+
+result += "=" + str(z)
+
+print(result.replace("X=","="))
+
+quit()
+
+###########
+
+
+a = 1
+s = 0
+n = 1
+while a > 0.0000000000001:
+    a = 1 / n ** 2
+    n += 1
+    s += a
+
+print(s)
+
+quit()
